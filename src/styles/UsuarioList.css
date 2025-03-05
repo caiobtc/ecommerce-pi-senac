@@ -1,0 +1,33 @@
+/* UsuarioList.css */
+.usuario-list {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.usuario-list h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.usuario-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.usuario-list li {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+.usuario-list li:hover {
+    background-color: #f9f9f9;
+}
+
+.usuario-list li:last-child {
+    border-bottom: none;
+}
